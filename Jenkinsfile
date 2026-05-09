@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        VERCEL_TOKEN = 'vcp_6fGfMRTzLayQg5qSz87ZGBvIaIGqRarYEu9moLCIEVIB49VdMv1QRdds'
+        VERCEL_TOKEN = credentials('vercel-token')
         VERCEL_PROJECT_ID = 'prj_kA5TT1JdUyfQy4xVd6fGdzfETa10'
         VERCEL_ORG_ID = 'vrushabhsatpute07-70'
     }
