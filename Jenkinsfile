@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         VERCEL_TOKEN = credentials('vercel-token')
-        VERCEL_PROJECT_ID = 'prj_kA5TT1JdUyfQy4xVd6fGdzfETa10'
-        VERCEL_ORG_ID = 'vrushabhs-projects-2d047a03'
+        VERCEL_PROJECT_ID = 'prj_wAG4bDaA5LSYvMnC5SrlIY4JQBr9'
+        VERCEL_ORG_ID = 'team_t1DbXzhwfEW8KBemGq0nt54Y'
     }
 
     stages {
